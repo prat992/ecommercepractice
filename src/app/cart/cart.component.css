@@ -1,0 +1,128 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cart-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .btn-back {
+    background: linear-gradient(45deg, #007bff, #00bcd4);
+    border: none;
+    color: white;
+    font-size: 1.5rem; 
+    padding: 12px 20px;
+    border-radius: 50px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-back:hover {
+    background: linear-gradient(45deg, #0069d9, #0097a7);
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-back:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(40, 167, 69, 0.5);
+  }
+  
+  .btn-back svg {
+    margin-right: 8px;
+    font-size: 1.0rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card-body .flex-grow-1 {
+    flex-grow: 1;
+  }
+  
+  .card-body .d-flex {
+    margin-top: auto;
+  }
+  
+  .card-body .card-text {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: auto;
+  }
+  
+  .text-end {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+  
+  .text-center h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .text-center button {
+    width: 200px;
+    padding: 12px;
+  }
+  
+  .quantity-controls button {
+    padding: 5px 10px;
+  }
+  
+  .quantity-controls span {
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+  }
+  
+  .btn {
+    border-radius: 5px;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
