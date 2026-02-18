@@ -15,7 +15,8 @@ export class TestComponent {
     async displayData(){
         try {
             const data = await this.testService.getData();
-        console.log('Sim',data)
+            console.log(data);
+            
         }
         catch(error){
             console.error('Error',error)
